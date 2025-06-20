@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Натяжные потолки - Профессиональная установка</title>
+    <meta name="description" content="Профессиональная установка натяжных потолков. Низкие цены, качество, гарантия. Бесплатный замер и консультация.">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Шапка сайта -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <i class="fas fa-home"></i>
+                    <span>ПотолкиПро</span>
+                </div>
+                <div class="header-contacts">
+                    <a href="tel:+74951234567" class="phone">
+                        <i class="fas fa-phone"></i>
+                        +7 (495) 123-45-67
+                    </a>
+                    <button class="btn-callback" onclick="openCallbackForm()">
+                        <i class="fas fa-phone-alt"></i>
+                        Заказать звонок
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Главный заголовок -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    Натяжные потолки
+                    <span class="accent">от 400 ₽/м²</span>
+                </h1>
+                <p class="hero-subtitle">Профессиональная установка с гарантией 5 лет. Бесплатный замер и консультация.</p>
+                <div class="hero-buttons">
+                    <button class="btn-primary" onclick="openCalculator()">
+                        <i class="fas fa-calculator"></i>
+                        Рассчитать стоимость
+                    </button>
+                    <button class="btn-secondary" onclick="openCallbackForm()">
+                        <i class="fas fa-phone"></i>
+                        Бесплатный замер
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- О компании -->
+    <section class="about">
+        <div class="container">
+            <h2 class="section-title">О компании</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>5+ лет опыта в установке натяжных потолков</h3>
+                    <p>Мы специализируемся на установке качественных натяжных потолков любой сложности. Наша команда мастеров выполнила более 1000 проектов в Москве и области.</p>
+                    <div class="advantages">
+                        <div class="advantage">
+                            <i class="fas fa-shield-alt"></i>
+                            <span>Гарантия 5 лет</span>
+                        </div>
+                        <div class="advantage">
+                            <i class="fas fa-clock"></i>
+                            <span>Установка за 1 день</span>
+                        </div>
+                        <div class="advantage">
+                            <i class="fas fa-tools"></i>
+                            <span>Современное оборудование</span>
+                        </div>
+                        <div class="advantage">
+                            <i class="fas fa-medal"></i>
+                            <span>Сертифицированные материалы</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="image-placeholder">
+                        <i class="fas fa-image"></i>
+                        <span>Фото работ</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Портфолио -->
+    <section class="portfolio">
+        <div class="container">
+            <h2 class="section-title">Наши работы</h2>
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <div class="image-placeholder">
+                        <i class="fas fa-image"></i>
+                        <span>До/После</span>
+                    </div>
+                    <h4>Квартира в центре</h4>
+                    <p>Глянцевый потолок с подсветкой</p>
+                </div>
+                <div class="portfolio-item">
+                    <div class="image-placeholder">
+                        <i class="fas fa-image"></i>
+                        <span>До/После</span>
+                    </div>
+                    <h4>Загородный дом</h4>
+                    <p>Многоуровневый потолок</p>
+                </div>
+                <div class="portfolio-item">
+                    <div class="image-placeholder">
+                        <i class="fas fa-image"></i>
+                        <span>До/После</span>
+                    </div>
+                    <h4>Офисное помещение</h4>
+                    <p>Матовый потолок с люстрой</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Команда -->
+    <section class="team">
+        <div class="container">
+            <h2 class="section-title">Наша команда</h2>
+            <div class="team-grid">
+                <div class="team-member">
+                    <div class="member-photo">
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <h4>Александр Петров</h4>
+                    <p>Главный мастер</p>
+                    <span>Опыт: 8 лет</span>
+                </div>
+                <div class="team-member">
+                    <div class="member-photo">
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <h4>Михаил Сидоров</h4>
+                    <p>Мастер-установщик</p>
+                    <span>Опыт: 5 лет</span>
+                </div>
+                <div class="team-member">
+                    <div class="member-photo">
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <h4>Дмитрий Козлов</h4>
+                    <p>Технолог</p>
+                    <span>Опыт: 6 лет</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Процесс работы -->
+    <section class="process">
+        <div class="container">
+            <h2 class="section-title">Как мы работаем</h2>
+            <div class="process-steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <h4>Заявка</h4>
+                    <p>Оставляете заявку на сайте или звоните нам</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <h4>Замер</h4>
+                    <p>Бесплатный выезд мастера для замера</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <h4>Расчет</h4>
+                    <p>Предоставляем точную смету и сроки</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <h4>Установка</h4>
+                    <p>Выполняем работы в оговоренные сроки</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Цены -->
+    <section class="pricing">
+        <div class="container">
+            <h2 class="section-title">Цены на услуги</h2>
+            <div class="pricing-grid">
+                <div class="price-card">
+                    <h3>Базовый</h3>
+                    <div class="price">от 400 ₽/м²</div>
+                    <ul>
+                        <li>Матовый потолок</li>
+                        <li>Базовый монтаж</li>
+                        <li>Гарантия 5 лет</li>
+                        <li>Бесплатный замер</li>
+                    </ul>
+                    <button class="btn-primary" onclick="openCalculator()">Заказать</button>
+                </div>
+                <div class="price-card featured">
+                    <div class="popular">Популярный</div>
+                    <h3>Стандарт</h3>
+                    <div class="price">от 600 ₽/м²</div>
+                    <ul>
+                        <li>Глянцевый потолок</li>
+                        <li>Светодиодная подсветка</li>
+                        <li>Гарантия 5 лет</li>
+                        <li>Бесплатный замер</li>
+                    </ul>
+                    <button class="btn-primary" onclick="openCalculator()">Заказать</button>
+                </div>
+                <div class="price-card">
+                    <h3>Премиум</h3>
+                    <div class="price">от 800 ₽/м²</div>
+                    <ul>
+                        <li>Многоуровневый потолок</li>
+                        <li>Сложная подсветка</li>
+                        <li>Гарантия 5 лет</li>
+                        <li>Бесплатный замер</li>
+                    </ul>
+                    <button class="btn-primary" onclick="openCalculator()">Заказать</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Контакты -->
+    <section class="contacts">
+        <div class="container">
+            <h2 class="section-title">Контакты</h2>
+            <div class="contacts-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Телефон</h4>
+                            <a href="tel:+74951234567">+7 (495) 123-45-67</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Адрес</h4>
+                            <p>г. Москва, ул. Примерная, д. 123</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h4>Режим работы</h4>
+                            <p>Пн-Пт: 9:00-20:00<br>Сб-Вс: 10:00-18:00</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <h3>Оставить заявку</h3>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Ваше имя" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" id="phone" name="phone" placeholder="Телефон" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Сообщение" rows="4"></textarea>
+                        </div>
+                        <button type="submit" class="btn-primary">
+                            <i class="fas fa-paper-plane"></i>
+                            Отправить заявку
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Футер -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <i class="fas fa-home"></i>
+                    <span>ПотолкиПро</span>
+                </div>
+                <div class="footer-links">
+                    <a href="#about">О компании</a>
+                    <a href="#portfolio">Портфолио</a>
+                    <a href="#pricing">Цены</a>
+                    <a href="#contacts">Контакты</a>
+                </div>
+                <div class="footer-social">
+                    <a href="#"><i class="fab fa-vk"></i></a>
+                    <a href="#"><i class="fab fa-telegram"></i></a>
+                    <a href="#"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 ПотолкиПро. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Модальные окна -->
+    <div id="callbackModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('callbackModal')">&times;</span>
+            <h3>Заказать звонок</h3>
+            <form id="callbackForm">
+                <div class="form-group">
+                    <input type="text" placeholder="Ваше имя" required>
+                </div>
+                <div class="form-group">
+                    <input type="tel" placeholder="Телефон" required>
+                </div>
+                <button type="submit" class="btn-primary">Заказать звонок</button>
+            </form>
+        </div>
+    </div>
+
+    <div id="calculatorModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('calculatorModal')">&times;</span>
+            <h3>Калькулятор стоимости</h3>
+            <div class="calculator">
+                <div class="form-group">
+                    <label>Площадь помещения (м²)</label>
+                    <input type="number" id="area" min="1" value="20">
+                </div>
+                <div class="form-group">
+                    <label>Тип потолка</label>
+                    <select id="ceilingType">
+                        <option value="400">Матовый - 400 ₽/м²</option>
+                        <option value="600">Глянцевый - 600 ₽/м²</option>
+                        <option value="800">Многоуровневый - 800 ₽/м²</option>
+                    </select>
+                </div>
+                <div class="calculator-result">
+                    <h4>Примерная стоимость:</h4>
+                    <div class="total-price" id="totalPrice">8 000 ₽</div>
+                </div>
+                <button class="btn-primary" onclick="openCallbackForm()">Заказать расчет</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Кнопка быстрого звонка -->
+    <div class="quick-call">
+        <button onclick="openCallbackForm()" class="quick-call-btn">
+            <i class="fas fa-phone"></i>
+        </button>
+    </div>
+
+    <!-- Онлайн-консультант -->
+    <div class="chat-widget">
+        <button class="chat-btn" onclick="toggleChat()">
+            <i class="fas fa-comments"></i>
+        </button>
+        <div class="chat-window" id="chatWindow">
+            <div class="chat-header">
+                <span>Онлайн-консультант</span>
+                <button onclick="toggleChat()">&times;</button>
+            </div>
+            <div class="chat-messages" id="chatMessages">
+                <div class="message bot">
+                    <p>Здравствуйте! Чем могу помочь?</p>
+                </div>
+            </div>
+            <div class="chat-input">
+                <input type="text" id="chatInput" placeholder="Введите сообщение...">
+                <button onclick="sendMessage()">
+                    <i class="fas fa-paper-plane"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
